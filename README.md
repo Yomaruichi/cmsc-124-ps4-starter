@@ -1,4 +1,9 @@
 <!--no-pdf-->
+# Members
+
+- Dejel Cyrus De Asis (Dejely)
+- John Dave Valentin (Yomaruichi)
+
 # CMSC 124 Problem Set 4 Starter
 
 This repository holds the Prolog prediction corpus and the rule stubs for
