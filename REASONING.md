@@ -56,35 +56,35 @@ only `1` solution which makes the second part none.
 
 ## P05
 
-Write one to three sentences here. Name the rule that fixes each field.
+Unification matches the arguments of both f terms, binding X to a and Y to b. This gives one solution and no second answer.
 
 ## P06
 
-Write one to three sentences here. Name the rule that fixes each field.
+The distinct atoms a and b cannot unify, so the query fails with zero solutions and no second answer.
 
 ## P07
 
-Write one to three sentences here. Name the rule that fixes each field.
+The path through liz fails because she has no children. The path through bob gives ann, then pat, for two solutions.
 
 ## P08
 
-Write one to three sentences here. Name the rule that fixes each field.
+The base clause gives liz and bob first. Recursion then finds ann, pat, sue, and jim, for six solutions in total.
 
 ## P09
 
-Write one to three sentences here. Name the rule that fixes each field.
+The recursive clause searches deeper before trying direct children, so sue comes first and jim second. The remaining answers are ann, pat, liz, and bob, for six solutions.
 
 ## P10
 
-Write one to three sentences here. Name the rule that fixes each field.
+The base clause finds pat first. Recursion then finds tom through bob and pat, followed by bob through pat, for three solutions.
 
 ## P11
 
-Write one to three sentences here. Name the rule that fixes each field.
+The first clause calls reach again before reading an edge, so it recurses forever without producing an answer. All three fields are unbounded.
 
 ## P12
 
-Write one to three sentences here. Name the rule that fixes each field.
+Reading edges first reaches d through a, b, and c, giving true. Backtracking repeatedly follows the cycle and reaches d again, so the second answer is true and the count is unbounded.
 
 ## P13
 
